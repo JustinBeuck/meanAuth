@@ -1,0 +1,30 @@
+{
+  "name": "app_client",
+  "version": "1.0.0",
+  "description": "Mean stack authentication tutorial",
+  "main": "main.js",
+  "dependencies": {
+    "jsonwebtoken": "^7.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinBeuck/meanAuth.git"
+  },
+  "keywords": [
+    "Angular",
+    "Node",
+    "Express",
+    "Mongo",
+    "Authentication"
+  ],
+  "author": "Justin Beuck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinBeuck/meanAuth/issues"
+  },
+  "homepage": "https://github.com/JustinBeuck/meanAuth#readme"
+}
