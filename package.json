@@ -4,7 +4,9 @@
   "description": "Mean stack authentication tutorial",
   "main": "main.js",
   "dependencies": {
-    "jsonwebtoken": "^7.1.7"
+    "jsonwebtoken": "^7.1.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
