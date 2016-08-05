@@ -18,9 +18,9 @@
 			};
 
 			return {
-				saveToken,
-				getToken,
-				logout
+				saveToken : saveToken,
+				getToken : getToken,
+				logout : logout
 			};
 		}
 })();
