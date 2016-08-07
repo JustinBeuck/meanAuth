@@ -24,9 +24,9 @@
     "Authentication"
   ],
   "author": "Justin Beuck",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JustinBeuck/meanAuth/issues"
   },
-  "homepage": "https://github.com/JustinBeuck/meanAuth#readme"
+  "homepage": "justinbeuck.github.io"
 }
