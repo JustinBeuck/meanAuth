@@ -23,7 +23,7 @@
 				logout : logout
 			};
 		}
-		
+
 		var isLoggedIn = function() {
 	  var token = getToken();
 	  var payload;
@@ -38,4 +38,17 @@
 	    return false;
 	  }
 	};
+
+		var currentUser = function() {
+			if(isLoggedIn()){
+				var token = getToken();
+				var payload = token.split('.')[1];
+				payload = $window.atob(payload);
+				payload = JSON.parse(payload);
+				return {
+					email : payload.email,
+					name : payload.name
+				};
+			}
+		};
 })();
